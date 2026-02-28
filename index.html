@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ekasutram - The AI, Coding & Mathematics Club of VIT Pune.">
+    <title>Ekasutram | Math & Code</title>
+    <!-- Modern Fonts: Outfit for Headings, Inter for Body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- BoxIcons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Background Patterns & Orbs -->
+    <div class="math-pattern hidden-pattern"></div>
+    <div class="glow-orb cyan"></div>
+    <div class="glow-orb purple"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container glass">
+            <a href="#home" class="logo">Ekasutram<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact" class="btn nav-cta">Join Guild</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i class='bx bx-menu-alt-right'></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-nav">
+        <ul class="mobile-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content reveal">
+            <div class="hero-badge">
+                <i class='bx bxl-algolia'></i> Engineering meets Mathematics
+            </div>
+            <h1 class="hero-title gradient-text">EKASUTRAM</h1>
+            <p class="hero-subtitle">Code. Hardware. Logic.</p>
+            <p class="hero-desc">The premiere tech and mathematics club of VIT Pune. We bridge the gap between abstract
+                mathematical theories and real-world algorithmic applications, AI, and systems engineering.</p>
+            <div class="hero-buttons">
+                <a href="#activities" class="btn btn-primary">Explore Events <i class='bx bx-right-arrow-alt'></i></a>
+                <a href="#contact" class="btn btn-secondary glass">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding dark-bg">
+        <div class="container about-grid">
+            <div class="about-content reveal">
+                <h2>The <span class="gradient-text">Intersection</span> of Code and Math</h2>
+                <div class="title-underline" style="margin: 0 0 2rem 0;"></div>
+                <p class="lead-text">We don't just solve equations. We build algorithms, train models, and engineer
+                    systems based on absolute logic.</p>
+                <p>Ekasutram is the official technical and mathematics community of VIT Pune. We believe that behind
+                    every great piece of software, efficient algorithm, or AI model, there is elegant mathematics. We
+                    host hackathons, coding bootcamps, algothons, and deep-dive seminars into everything from neural
+                    networks to competitive programming.</p>
+            </div>
+            <div class="about-visual glass reveal">
+                <!-- Coding/Math abstract image -->
+                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                    alt="Cyber Security Code">
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission Section -->
+    <section id="vision" class="vision-mission section-padding">
+        <div class="container">
+            <div class="fm-grid">
+                <div class="vm-card glass reveal">
+                    <div class="vm-icon"><i class='bx bx-code-block'></i></div>
+                    <h3>Technical Excellence</h3>
+                    <p>To cultivate elite coders, machine learning researchers, and mathematical thinkers who can solve
+                        complex engineering challenges through structured logic.</p>
+                </div>
+                <div class="vm-card glass reveal" style="transition-delay: 0.2s;">
+                    <div class="vm-icon"><i class='bx bx-git-branch'></i></div>
+                    <h3>Open Innovation</h3>
+                    <p>Organizing 24-hour hackathons, competitive programming contests (CP), and building open-source
+                        tools that empower our student developer community.</p>
+                </div>
+                <div class="vm-card glass reveal" style="transition-delay: 0.4s;">
+                    <div class="vm-icon"><i class='bx bxs-network-chart'></i></div>
+                    <h3>AI & Algorithms</h3>
+                    <p>Democratizing knowledge in Artificial Intelligence by bridging the gap between pure mathematics
+                        (linear algebra, calculus) and machine learning deployment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="events section-padding dark-bg">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Tracks & <span class="gradient-text">Activities</span></h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="events-grid">
+                <!-- Event Card 1 -->
+                <div class="event-card glass reveal">
+                    <div class="event-img">
+                        <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Matrix Code">
+                        <span class="event-tag upcoming">Upcoming</span>
+                    </div>
+                    <div class="event-body">
+                        <div class="event-meta">
+                            <span><i class='bx bx-calendar'></i> Oct 24, 2026</span>
+                            <span><i class='bx bx-time'></i> 24-Hours</span>
+                        </div>
+                        <h3>Algothon 2026</h3>
+                        <p>Our flagship 24-hour algorithmic hackathon. Teams solve intense, real-world scaling and
+                            optimization problems using advanced data structures and graph theory.</p>
+                        <a href="#" class="event-link">Register Team <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div>
+                <!-- Event Card 2 -->
+                <div class="event-card glass reveal" style="transition-delay: 0.2s;">
+                    <div class="event-img">
+                        <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Programming IDE">
+                        <span class="event-tag ongoing">Ongoing</span>
+                    </div>
+                    <div class="event-body">
+                        <div class="event-meta">
+                            <span><i class='bx bx-calendar'></i> Weekly Saturdays</span>
+                            <span><i class='bx bx-map'></i> Lab 4</span>
+                        </div>
+                        <h3>CP Bootcamp & LeetCode</h3>
+                        <p>A rigorous training camp focused on Competitive Programming. We tackle dynamic programming,
+                            greedy algorithms, and mathematics for ICPC preparation.</p>
+                        <a href="#" class="event-link">Join Division <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div>
+                <!-- Event Card 3 -->
+                <div class="event-card glass reveal" style="transition-delay: 0.4s;">
+                    <div class="event-img">
+                        <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="AI Network">
+                        <span class="event-tag past">Past</span>
+                    </div>
+                    <div class="event-body">
+                        <div class="event-meta">
+                            <span><i class='bx bx-calendar'></i> Sep 2026</span>
+                            <span><i class='bx bxs-file-pdf'></i> Resources</span>
+                        </div>
+                        <h3>Math for Machine Learning</h3>
+                        <p>A 3-day intensive seminar covering the calculus, probability, and linear algebra that powers
+                            modern Deep Learning frameworks and LLMs.</p>
+                        <a href="#" class="event-link">View Materials <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Hall of <span class="gradient-text">Fame</span></h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="achievements-timeline">
+                <div class="achievement-item reveal">
+                    <div class="ach-node"></div>
+                    <div class="achievement-card glass">
+                        <div class="ach-year">2026</div>
+                        <div class="ach-info">
+                            <h4>ICPC Regional Finalists</h4>
+                            <p class="ach-award">Top 10 Nationwide</p>
+                            <p class="ach-winner">Team Enigma (Rahul, Neha, Aryan)</p>
+                            <div class="ach-tags">
+                                <span>Competitive Programming</span>
+                                <span>Algorithms</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-item reveal">
+                    <div class="ach-node"></div>
+                    <div class="achievement-card glass">
+                        <div class="ach-year">2025</div>
+                        <div class="ach-info">
+                            <h4>Global Smart India Hackathon</h4>
+                            <p class="ach-award">1st Prize - AI & Analytics Track</p>
+                            <p class="ach-winner">Team Calculus</p>
+                            <div class="ach-tags">
+                                <span>Machine Learning</span>
+                                <span>Hackathon</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-item reveal">
+                    <div class="ach-node"></div>
+                    <div class="achievement-card glass">
+                        <div class="ach-year">2025</div>
+                        <div class="ach-info">
+                            <h4>Kaggle Global Datathon</h4>
+                            <p class="ach-award">Top 1% Performers</p>
+                            <p class="ach-winner">Siddharth Joshi & Aditi Sharma</p>
+                            <div class="ach-tags">
+                                <span>Data Science</span>
+                                <span>Statistics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-item reveal">
+                    <div class="ach-node"></div>
+                    <div class="achievement-card glass">
+                        <div class="ach-year">2024</div>
+                        <div class="ach-info">
+                            <h4>National Math Olympiad</h4>
+                            <p class="ach-award">Gold Medalist</p>
+                            <p class="ach-winner">Rahul Deshmukh</p>
+                            <div class="ach-tags">
+                                <span>Pure Math</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team section-padding dark-bg">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Core <span class="gradient-text">Command</span></h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="team-grid">
+                <div class="team-card glass reveal">
+                    <div class="team-avatar">
+                        <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                            alt="Aryan Kadam">
+                    </div>
+                    <div class="team-info">
+                        <h4>Aryan Kadam</h4>
+                        <p class="team-role">President & Tech Lead</p>
+                        <div class="team-social">
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card glass reveal" style="transition-delay: 0.1s;">
+                    <div class="team-avatar">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                            alt="Neha Gupta">
+                    </div>
+                    <div class="team-info">
+                        <h4>Neha Gupta</h4>
+                        <p class="team-role">Vice President & AI Head</p>
+                        <div class="team-social">
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card glass reveal" style="transition-delay: 0.2s;">
+                    <div class="team-avatar">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                            alt="Siddharth Joshi">
+                    </div>
+                    <div class="team-info">
+                        <h4>Siddharth Joshi</h4>
+                        <p class="team-role">CP & Algorithms Head</p>
+                        <div class="team-social">
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card glass reveal" style="transition-delay: 0.3s;">
+                    <div class="team-avatar">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                            alt="Aditi Sharma">
+                    </div>
+                    <div class="team-info">
+                        <h4>Aditi Sharma</h4>
+                        <p class="team-role">Hackathon Coordinator</p>
+                        <div class="team-social">
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Visual <span class="gradient-text">Logs</span></h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item item-tall reveal">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Coding on Laptop">
+                    <div class="gallery-overlay">
+                        <h4>Terminal Hacking</h4>
+                    </div>
+                </div>
+                <div class="gallery-item reveal" style="transition-delay: 0.1s;">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Dual Screen Coding">
+                    <div class="gallery-overlay">
+                        <h4>Code Review</h4>
+                    </div>
+                </div>
+                <div class="gallery-item reveal" style="transition-delay: 0.2s;">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Circuit Board">
+                    <div class="gallery-overlay">
+                        <h4>Hardware Logic</h4>
+                    </div>
+                </div>
+                <div class="gallery-item item-wide reveal" style="transition-delay: 0.3s;">
+                    <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                        alt="Math Geometry">
+                    <div class="gallery-overlay">
+                        <h4>Spatial Mathematics</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand reveal">
+                        <a href="#home" class="logo" style="margin-bottom: 1.5rem;">Ekasutram<span>.</span></a>
+                        <p>The elite Mathematics, Algorithmic, and AI Engineering Club of VIT Pune. Fostering a
+                            community of 10x developers and logical thinkers.</p>
+                        <div class="social-links">
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                            <a href="#"><i class='bx bxl-discord-alt'></i></a>
+                            <a href="#"><i class='bx bxl-instagram'></i></a>
+                            <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-links reveal" style="transition-delay: 0.2s;">
+                        <h3>Sitemap</h3>
+                        <ul>
+                            <li><a href="#about"><i class='bx bx-chevron-right'></i> About Us</a></li>
+                            <li><a href="#activities"><i class='bx bx-chevron-right'></i> Activities</a></li>
+                            <li><a href="#achievements"><i class='bx bx-chevron-right'></i> Achievements</a></li>
+                            <li><a href="#team"><i class='bx bx-chevron-right'></i> Core Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links reveal" style="transition-delay: 0.3s;">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#"><i class='bx bx-chevron-right'></i> Algorithm Archive</a></li>
+                            <li><a href="#"><i class='bx bx-chevron-right'></i> Open Source Github</a></li>
+                            <li><a href="#"><i class='bx bx-chevron-right'></i> Past Hackathons</a></li>
+                            <li><a href="#"><i class='bx bx-chevron-right'></i> Join Newsletter</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact reveal" style="transition-delay: 0.4s;">
+                        <h3>Communicate</h3>
+                        <ul class="contact-info">
+                            <li><i class='bx bx-envelope'></i>
+                                <div>hello@ekasutram.dev<br>sponsor@ekasutram.dev</div>
+                            </li>
+                            <li><i class='bx bx-map'></i>
+                                <div>Vishwakarma Institute of Technology, Pune, Maharashtra</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>Copyright &copy; 2026 Ekasutram Tech Guild. All rights reserved. Powered by pure logic.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
